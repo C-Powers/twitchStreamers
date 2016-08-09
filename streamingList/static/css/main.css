@@ -1,0 +1,104 @@
+* {
+  background: black;
+  color: white;
+}
+
+.absolute-center {
+  height:90%;
+  width:70%;
+  margin:auto;
+  position:absolute;
+  top:0; left:0; bottom:0; right:0;
+}
+
+.container {
+  margin: 1%;
+  padding: 1%;
+  display: flex;
+  justify-content: space-around;
+  max-width:700px;
+}
+
+.main-header {
+  margin:1%;
+  height: 75px;
+  font-weight: 300;
+}
+
+.form-group {
+  margin: 2%;
+}
+
+.toggle-buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+.btn {
+  height: 30px;
+  background-color: grey;
+}
+
+.channel-holder.container {
+  margin: 1%;
+  padding: 1%;
+  display: flex;
+  justify-content: space-around;
+  background-color: grey;
+
+}
+
+
+.channel-holder {
+  height:100%
+  width: 100%;
+}
+
+.channel {
+  padding: 5%;
+  font-weight: 300;
+  font-size: 1.5em;
+  background-color: grey;
+}
+
+.game {
+  padding: 5%;
+  font-weight: 300;
+  font-size: 1.5em;
+  font-style: italic;
+  background-color: grey;
+}
+
+.channel-logo {
+  vertical-align: middle;
+}
+
+img {
+  max-width: 100px;
+  max-height: 100px;
+  min-height:50px;
+  width: 20%;
+  height: 20%;
+  border:2px solid white;
+  border-radius:50%;
+}
+
+/* unvisited link */
+a:link {
+    color: white;
+}
+
+/* visited link */
+a:visited {
+    color: white;
+}
+
+/* mouse over link */
+a:hover {
+    color: black;
+}
+
+/* selected link */
+a:active {
+    color: black;
+}
